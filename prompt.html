@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown nav bar</title>
+    <style>
+.header{
+    background-color: #140E23;
+    color: white;
+position: inherit;
+justify-content: space-between;
+align-items: flex-start;
+padding: 20px 30px;
+margin: 30px;
+gap: 185px;
+isolation: isolate;
+width: 25%;
+height: 99px;
+}
+
+.header img{
+    display: flex;
+    float: right;
+    top: 20px;
+}
+.header h1{
+    font-size: 20px;
+}
+.dropdownlist{
+    background-color: #140E23;
+    color: white;
+display: inline-block;
+justify-content: space-between;
+align-items: flex-start;
+padding: 20px 30px;
+margin: 30px;
+gap: 185px;
+isolation: isolate;
+width: 25%;
+height: 385px;
+margin-bottom: 180px;
+position: absolute;
+
+}
+
+
+
+
+
+.dropdownone{
+    border: 1px solid white;
+    height: 60px;
+display: flex;
+   
+}
+
+.dropdownone h1{
+    font-size: 15px;
+    
+}
+
+.dropdownone p{
+    font-size: 8px;
+   top: 50px;
+}
+
+ 
+    </style>
+ </head>
+ <body>
+    <div class="dropdown">
+        <!-- <div class="image-mobile" id="img">
+          <img src="/images/Zulu trust.png" alt="zulu" />
+        </div> -->
+
+        <div class="dropdown-list" id="icon-list">
+            <div class="header">
+<h1>Connect Wallet</h1>
+<p>connect your wallet to access Zulu Trust</p>
+<img src="/images/icon.png" alt="icon">
+</div>
+          <div class="dropdownlist">
+            <div class="dropdownone">
+            <img src="/images/dropdown1.png" alt="drop1">
+            <h1>Metamask Wallet</h1>
+            <p>Connect your Metamask Wallet</p>
+            <a class="connect1" href="#">connect</a>
+        </div>
+            
+            <div class="dropdownone">
+            <img src="/images/dropdown2.png" alt="drop1">
+            <h1>Coinbase Wallet</h1>
+            <p>Connect your Coinbase Wallet</p>
+            <a class="connect2" href="#">connect</a>
+        </div>
+
+        <div class="dropdownone">
+            <img src="/images/dropdown3.png" alt="drop1">
+            <h1>Wallet Connect</h1>
+            <p>Connect your Coinbase Wallet</p>
+            <a class="connect2" href="#">connect</a>
+        </div>
+
+        <div class="New">
+            <p>New to wallet? <a href="#">learn more</a></p>
+        </div>
+          </div>
+
+        
+        </div>
+        <script src="index.js"></script>
+ </body>
+ </html>
